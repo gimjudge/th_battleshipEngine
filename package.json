@@ -1,0 +1,25 @@
+{
+  "name": "battleshipengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_test.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimjudge/th_battleshipEngine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimjudge/th_battleshipEngine/issues"
+  },
+  "homepage": "https://github.com/gimjudge/th_battleshipEngine#readme"
+}
