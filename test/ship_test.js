@@ -66,6 +66,12 @@ describe ('fire', function(){
             ]
         };
     });
+    after (function () {
+        console.log('entire test suite completed');
+    });
+    afterEach (function () {
+        console.log('one unit test completed');
+    });
 
     it('Should record damage on given players ship at a given coordinate', function () {
         
